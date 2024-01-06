@@ -3,139 +3,92 @@
 padding:0;
 margin:0;
 }
-
-body{
-    background-color: #ffffff00;
-}
-
-header{
-    height: 75px;
+#blog {
     width: 100%;
-    background-color: #9bd0e4;
-    display: flex;
+    height: 1200px;
+    background: black;
 }
-header div{
-    height: 75px;
-    width: 80px;
-    position:absolute;
-    left: 100px;
+
+
+.inner {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    max-width: 1150px;
+    min-width: 770px;
+    height: 1200px;
+    background: #110f12;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    background:#110f12;
+    padding: 10px;
+}
+
+header nav ul {
+}
+header nav ul li{
+    display: flex;
+    justify-content: space-around;
+
 }
 
 
-header ul{
-    position: fixed;
-    display: inline;
-    line-height: 75px;
-    right: 50px;
-    background-color: #ffffff00;
-}
-header li{
-    color: #00000000;
-    margin-right: 75px;
+header h3{
+    text-align: center;
+    color: #f03838;
 }
 
-a{
-    color: black;
+header div {
+    height: 30px;
+}
+
+header nav li a {
+    color: #f03838;
     text-decoration: none;
-}
-header a{
-    margin-left: 4vw;
-}
-header a:hover{
-    text-decoration: underline;
+    font-size: 1em;
 }
 
-.diyi{
-    /* background-image: url(images/house.png) */
-    height:95vh;
-    display: flex;
-    background-color: #a8d8ea;
-    width: 100%;
-    justify-content: center;
-    flex-direction: column;
-    justify-items: center;
-}
-.div1{
-    display: flex;
-    height: 95vh;
-    width: 100%;
-    justify-content: center;
-    flex-direction: column;
-
-
-}
-
-
-
-.h3{
-    text-align: center;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size:26px;
-}
-.dier{
-    background-color: #aa96da;
-    display: flex;
-    height: 30vh;
-    width: 100%;
-    justify-content: center;  
-    flex-direction: column;
-}
-
-.div2{
+.main {
     display: flex;
     justify-content: center;
-    
 }
 
-/* .vs{
-    background-image: url(images/vst.webp);
-} */
-
-.disan{
-    display: flex;
-    background-color: #fcbad3;
-    height: 50vh;
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
+.content {
+    width: 600px;
+    height: 1200px;
+    background: #110f12;
 }
-.div3{
+
+
+.article {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-.disi{
-    display: flex;
-    background-color: #ffffd2;
-    height: 30vh;
-    width: 100%;
+article {
+
 }
 
-.footer{
-    justify-content: center;
-    text-align: center;
-    height: 120px;
-    background-color:black;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    font-size: 10px;
+article h3 {
+    color: cornsilk;
+    /*text-align: center;*/
 }
-
-
 
 
 
 
 
 @media screen and (max-width: 768px){
-    header h1{
-        left: 30px;
-    }
 
+}
+
+.footer {
+    background-color: black;
+    color: #9e9e9e;
+    text-align: center;
 }
